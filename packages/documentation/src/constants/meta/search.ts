@@ -1047,6 +1047,28 @@ const metadata: readonly RouteMetadata[] = [
     pathname: "/packages/form/demos#text-field-hook-examples-title",
   },
   {
+    title: "Form Demo - Number Hook Examples",
+    summary:
+      'Since the <input type="number"> behaves oddly, ReactMD exports a hook to deal with number fields named: useNumberField. This uses the useTextField internally to validate the number and return a valid number.',
+    type: "demo",
+    pageUrl: "/packages/form/demos#number-hook-examples-title",
+    pathname: "/packages/form/demos#number-hook-examples-title",
+  },
+  {
+    title: "Form Demo - Simple Sliders",
+    summary: "",
+    type: "demo",
+    pageUrl: "/packages/form/demos#simple-sliders-title",
+    pathname: "/packages/form/demos#simple-sliders-title",
+  },
+  {
+    title: "Form Demo - Color Dialog Slider",
+    summary: "",
+    type: "demo",
+    pageUrl: "/packages/form/demos#color-dialog-slider-title",
+    pathname: "/packages/form/demos#color-dialog-slider-title",
+  },
+  {
     title: "Form Demo - Example Form",
     summary:
       'This package also exports an extremely simple Form component that just prevents default behavior when it is submitted. This is super nice since the majority of the time you\'ll want to use ajax on form submit instead of the default behavior. Check out the example below for an extended usage of the Form component and some of the other components together to make a "New Contact" form.',

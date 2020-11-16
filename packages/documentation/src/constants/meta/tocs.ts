@@ -2296,6 +2296,18 @@ const tocs: TOCRecord = {
       title: "Text Field Hook Examples",
     },
     {
+      anchor: "#number-hook-examples",
+      title: "Number Hook Examples",
+    },
+    {
+      anchor: "#simple-sliders",
+      title: "Simple Sliders",
+    },
+    {
+      anchor: "#color-dialog-slider",
+      title: "Color Dialog Slider",
+    },
+    {
       anchor: "#example-form",
       title: "Example Form",
     },
