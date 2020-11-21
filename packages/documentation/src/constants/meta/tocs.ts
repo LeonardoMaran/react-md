@@ -2304,6 +2304,10 @@ const tocs: TOCRecord = {
       title: "Simple Sliders",
     },
     {
+      anchor: "#range-sliders",
+      title: "Range Sliders",
+    },
+    {
       anchor: "#color-dialog-slider",
       title: "Color Dialog Slider",
     },

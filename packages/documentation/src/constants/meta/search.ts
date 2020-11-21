@@ -1056,14 +1056,24 @@ const metadata: readonly RouteMetadata[] = [
   },
   {
     title: "Form Demo - Simple Sliders",
-    summary: "",
+    summary:
+      'A SimpleSlider is a component that allows the user to select a number value from a specific range of numbers. This component is fully controlled and requires the use of the useSimpleSlider hook to provide the value and\n"controls" to updating the value. The hook allows for customizing the min, max, and step options.',
     type: "demo",
     pageUrl: "/packages/form/demos#simple-sliders-title",
     pathname: "/packages/form/demos#simple-sliders-title",
   },
   {
+    title: "Form Demo - Range Sliders",
+    summary:
+      'A RangeSlider is another implementation of a slider that allows the user to select a min and max value from a specific range of numbers. Like the SimpleSlider, this component is fully controlled and requires the use of the useRangeSlider hook to provide the value and "controls" to updating the value. The hook allows for customizing the min, max, and step options.',
+    type: "demo",
+    pageUrl: "/packages/form/demos#range-sliders-title",
+    pathname: "/packages/form/demos#range-sliders-title",
+  },
+  {
     title: "Form Demo - Color Dialog Slider",
-    summary: "",
+    summary:
+      "As mentioned above, the useSimpleSlider provides an object of controls as the second argument which is required to update the slider's value. The controls include the following functions:",
     type: "demo",
     pageUrl: "/packages/form/demos#color-dialog-slider-title",
     pathname: "/packages/form/demos#color-dialog-slider-title",
